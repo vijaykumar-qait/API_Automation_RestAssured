@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)" preserve-order="true">
     <classes>
-      <class name="com.thinksys.statuses.UserTimelineTest">
+      <class name="com.assignment.statuses.UserTimelineTest">
         <methods>
-          <include name="setup"/>
-          <include name="readTweets3"/>
+          <include name="Test_CreateUser"/>
         </methods>
-      </class> <!-- com.thinksys.statuses.UserTimelineTest -->
+      </class> <!-- com.assignment.statuses.UserTimelineTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

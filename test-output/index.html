@@ -2,10 +2,9 @@
 
 <html>
   <head>
-  <meta charset='utf-8'>
-  <title>TestNG reports</title>
+  <title>TestNG new reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
     <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
@@ -91,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,17 +101,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.thinksys.statuses.UserTimelineTest" hash-for-method="readTweets">readTweets</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.thinksys.statuses.UserTimelineTest" hash-for-method="readTweets1">readTweets1</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.thinksys.statuses.UserTimelineTest" hash-for-method="readTweets3">readTweets3</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.assignment.statuses.UserTimelineTest" hash-for-method="Test_CreateUser">Test_CreateUser</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -130,28 +119,14 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.thinksys.statuses.UserTimelineTest</span>
+              <span class="class-name">com.assignment.statuses.UserTimelineTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="readTweets">
-                  </a> <!-- readTweets -->
-                  <span class="method-name">readTweets</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="readTweets1">
-                  </a> <!-- readTweets1 -->
-                  <span class="method-name">readTweets1</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="readTweets3">
-                  </a> <!-- readTweets3 -->
-                  <span class="method-name">readTweets3</span>
+                  <a name="Test_CreateUser">
+                  </a> <!-- Test_CreateUser -->
+                  <span class="method-name">Test_CreateUser</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -159,16 +134,16 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/vt/sbwgsqn536v09syjvzc8p23w0000gn/T/testng-eclipse-1905915707/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/j7/x10yh2zn3ts28c_z0ysmnwgr4zm43t/T/testng-eclipse-1956471639/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
-  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+&lt;suite name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot; preserve-order=&quot;true&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.thinksys.statuses.UserTimelineTest&quot;/&gt;
+      &lt;class name=&quot;com.assignment.statuses.UserTimelineTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -208,24 +183,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'readTweets')
-data.setCell(0, 2, 'com.thinksys.statuses.UserTimelineTest')
-data.setCell(0, 3, 9587);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'readTweets1')
-data.setCell(1, 2, 'com.thinksys.statuses.UserTimelineTest')
-data.setCell(1, 3, 1948);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'readTweets3')
-data.setCell(2, 2, 'com.thinksys.statuses.UserTimelineTest')
-data.setCell(2, 3, 1020);
+data.setCell(0, 1, 'Test_CreateUser')
+data.setCell(0, 2, 'com.assignment.statuses.UserTimelineTest')
+data.setCell(0, 3, 3301);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 12 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -251,22 +218,10 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.thinksys.statuses.UserTimelineTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setup</span>
+              <div class="chronological-class-name">com.assignment.statuses.UserTimelineTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test_CreateUser</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">readTweets</span>
-                <span class="method-start">692 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">readTweets1</span>
-                <span class="method-start">10281 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">readTweets3</span>
-                <span class="method-start">12231 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

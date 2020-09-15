@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13268" started-at="2017-11-13T11:10:17Z" finished-at="2017-11-13T11:10:30Z">
+  <suite name="Default suite" duration-ms="3316" started-at="2020-09-14T18:04:12Z" finished-at="2020-09-14T18:04:15Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13268" started-at="2017-11-13T11:10:17Z" finished-at="2017-11-13T11:10:30Z">
-      <class name="com.thinksys.statuses.UserTimelineTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.thinksys.statuses.UserTimelineTest@6f7fd0e6]" name="setup" is-config="true" duration-ms="684" started-at="2017-11-13T16:40:17Z" finished-at="2017-11-13T16:40:17Z">
+    <test name="Default test" duration-ms="3316" started-at="2020-09-14T18:04:12Z" finished-at="2020-09-14T18:04:15Z">
+      <class name="com.assignment.statuses.UserTimelineTest">
+        <test-method status="PASS" signature="Test_CreateUser()[pri:0, instance:com.assignment.statuses.UserTimelineTest@5a8806ef]" name="Test_CreateUser" duration-ms="3301" started-at="2020-09-14T23:34:12Z" finished-at="2020-09-14T23:34:15Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="readTweets()[pri:0, instance:com.thinksys.statuses.UserTimelineTest@6f7fd0e6]" name="readTweets" duration-ms="9587" started-at="2017-11-13T16:40:17Z" finished-at="2017-11-13T16:40:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- readTweets -->
-        <test-method status="PASS" signature="readTweets1()[pri:0, instance:com.thinksys.statuses.UserTimelineTest@6f7fd0e6]" name="readTweets1" duration-ms="1948" started-at="2017-11-13T16:40:27Z" finished-at="2017-11-13T16:40:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- readTweets1 -->
-        <test-method status="PASS" signature="readTweets3()[pri:0, instance:com.thinksys.statuses.UserTimelineTest@6f7fd0e6]" name="readTweets3" duration-ms="1020" started-at="2017-11-13T16:40:29Z" finished-at="2017-11-13T16:40:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- readTweets3 -->
-      </class> <!-- com.thinksys.statuses.UserTimelineTest -->
+        </test-method> <!-- Test_CreateUser -->
+      </class> <!-- com.assignment.statuses.UserTimelineTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
